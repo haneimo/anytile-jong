@@ -1,0 +1,280 @@
+accounts-ui@1.4.2
+├─┬ accounts-base@2.2.8
+│ ├─┬ callback-hook@1.5.1
+│ │ └── ecmascript@0.16.7 (top level)
+│ ├─┬ check@1.3.2
+│ │ ├── ecmascript@0.16.7 (top level)
+│ │ └─┬ ejson@1.1.3
+│ │   ├─┬ base64@1.0.12
+│ │   │ └── ecmascript@0.16.7 (top level)
+│ │   └── ecmascript@0.16.7 (top level)
+│ ├─┬ ddp@1.4.1
+│ │ ├─┬ ddp-client@2.6.1
+│ │ │ ├── callback-hook@1.5.1 (expanded above)
+│ │ │ ├── check@1.3.2 (expanded above)
+│ │ │ ├─┬ ddp-common@1.4.0
+│ │ │ │ ├── check@1.3.2 (expanded above)
+│ │ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │ ├── ejson@1.1.3 (expanded above)
+│ │ │ │ ├─┬ random@1.2.1
+│ │ │ │ │ └── ecmascript@0.16.7 (top level)
+│ │ │ │ ├─┬ retry@1.1.0
+│ │ │ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │ │ └── random@1.2.1 (expanded above)
+│ │ │ │ └─┬ tracker@1.3.2
+│ │ │ │   └── ecmascript@0.16.7 (top level)
+│ │ │ ├─┬ diff-sequence@1.1.2
+│ │ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │ └── ejson@1.1.3 (expanded above)
+│ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ ├── ejson@1.1.3 (expanded above)
+│ │ │ ├─┬ id-map@1.1.1
+│ │ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │ └── ejson@1.1.3 (expanded above)
+│ │ │ ├─┬ mongo-id@1.0.8
+│ │ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │ ├── ejson@1.1.3 (expanded above)
+│ │ │ │ └── random@1.2.1 (expanded above)
+│ │ │ ├── random@1.2.1 (expanded above)
+│ │ │ ├─┬ reload@1.3.1
+│ │ │ │ └── ecmascript@0.16.7 (top level)
+│ │ │ ├── retry@1.1.0 (expanded above)
+│ │ │ ├─┬ socket-stream-client@0.5.1
+│ │ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │ ├─┬ modern-browsers@0.1.9
+│ │ │ │ │ └─┬ modules@0.19.0
+│ │ │ │ │   └── modules-runtime@0.13.1
+│ │ │ │ └── retry@1.1.0 (expanded above)
+│ │ │ └── tracker@1.3.2 (expanded above)
+│ │ └─┬ ddp-server@2.6.2
+│ │   ├── callback-hook@1.5.1 (expanded above)
+│ │   ├── check@1.3.2 (expanded above)
+│ │   ├── ddp-client@2.6.1 (expanded above)
+│ │   ├── ddp-common@1.4.0 (expanded above)
+│ │   ├── diff-sequence@1.1.2 (expanded above)
+│ │   ├── ecmascript@0.16.7 (top level)
+│ │   ├── ejson@1.1.3 (expanded above)
+│ │   ├── mongo-id@1.0.8 (expanded above)
+│ │   ├── random@1.2.1 (expanded above)
+│ │   ├── retry@1.1.0 (expanded above)
+│ │   ├─┬ routepolicy@1.1.1
+│ │   │ ├── ecmascript@0.16.7 (top level)
+│ │   │ └─┬ webapp@1.13.5
+│ │   │   ├─┬ boilerplate-generator@1.7.1
+│ │   │   │ ├── ecmascript@0.16.7 (top level)
+│ │   │   │ └── underscore@1.0.13
+│ │   │   ├── callback-hook@1.5.1 (expanded above)
+│ │   │   ├── ecmascript@0.16.7 (top level)
+│ │   │   ├─┬ inter-process-messaging@0.1.1
+│ │   │   │ ├── modules@0.19.0 (expanded above)
+│ │   │   │ └─┬ promise@0.12.2
+│ │   │   │   ├── modern-browsers@0.1.9 (expanded above)
+│ │   │   │   └── modules@0.19.0 (expanded above)
+│ │   │   ├─┬ logging@1.3.2
+│ │   │   │ ├── ecmascript@0.16.7 (top level)
+│ │   │   │ ├─┬ ecmascript-runtime-client@0.12.1
+│ │   │   │ │ ├── modern-browsers@0.1.9 (expanded above)
+│ │   │   │ │ ├── modules@0.19.0 (expanded above)
+│ │   │   │ │ └── promise@0.12.2 (expanded above)
+│ │   │   │ └── ejson@1.1.3 (expanded above)
+│ │   │   ├── modern-browsers@0.1.9 (expanded above)
+│ │   │   ├── routepolicy@1.1.1 (expanded above)
+│ │   │   ├── underscore@1.0.13
+│ │   │   └─┬ webapp-hashing@1.1.1
+│ │   │     └── ecmascript@0.16.7 (top level)
+│ │   ├── underscore@1.0.13
+│ │   └── webapp@1.13.5 (expanded above)
+│ ├─┬ ddp-rate-limiter@1.2.0
+│ │ ├── ecmascript@0.16.7 (top level)
+│ │ └─┬ rate-limit@1.1.1
+│ │   ├── ecmascript@0.16.7 (top level)
+│ │   └── random@1.2.1 (expanded above)
+│ ├── ecmascript@0.16.7 (top level)
+│ ├── ejson@1.1.3 (expanded above)
+│ ├─┬ localstorage@1.2.0
+│ │ └── random@1.2.1 (expanded above)
+│ ├── mongo@1.16.7 (top level)
+│ ├── random@1.2.1 (expanded above)
+│ ├── reactive-var@1.0.12 (top level)
+│ ├── tracker@1.3.2 (expanded above)
+│ └─┬ url@1.3.2
+│   ├── modern-browsers@0.1.9 (expanded above)
+│   └── modules@0.19.0 (expanded above)
+├─┬ accounts-ui-unstyled@1.7.0
+│ ├── accounts-base@2.2.8 (expanded above)
+│ ├── ecmascript@0.16.7 (top level)
+│ ├─┬ less@3.0.2
+│ │ ├─┬ caching-compiler@1.2.2
+│ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ └── random@1.2.1 (expanded above)
+│ │ └── ecmascript@0.16.7 (top level)
+│ ├─┬ service-configuration@1.3.1
+│ │ ├── accounts-base@2.2.8 (expanded above)
+│ │ ├── ecmascript@0.16.7 (top level)
+│ │ └── mongo@1.16.7 (top level)
+│ ├─┬ session@1.2.1
+│ │ ├── ecmascript@0.16.7 (top level)
+│ │ ├── ejson@1.1.3 (expanded above)
+│ │ └─┬ reactive-dict@1.3.1
+│ │   ├── ecmascript@0.16.7 (top level)
+│ │   ├── ejson@1.1.3 (expanded above)
+│ │   └── tracker@1.3.2 (expanded above)
+│ ├─┬ templating@1.4.1
+│ │ ├─┬ templating-compiler@1.4.1
+│ │ │ ├─┬ caching-html-compiler@1.2.1
+│ │ │ │ ├── caching-compiler@1.2.2 (expanded above)
+│ │ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │ └─┬ templating-tools@1.2.2
+│ │ │ │   ├── ecmascript@0.16.7 (top level)
+│ │ │ │   └─┬ spacebars-compiler@1.3.1
+│ │ │ │     ├─┬ blaze-tools@1.1.3
+│ │ │ │     │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │     │ └─┬ htmljs@1.1.1
+│ │ │ │     │   └── ecmascript@0.16.7 (top level)
+│ │ │ │     ├── ecmascript@0.16.7 (top level)
+│ │ │ │     ├─┬ html-tools@1.1.3
+│ │ │ │     │ ├── ecmascript@0.16.7 (top level)
+│ │ │ │     │ └── htmljs@1.1.1 (expanded above)
+│ │ │ │     └── htmljs@1.1.1 (expanded above)
+│ │ │ ├── ecmascript@0.16.7 (top level)
+│ │ │ └── templating-tools@1.2.2 (expanded above)
+│ │ └─┬ templating-runtime@1.5.0
+│ │   ├─┬ blaze@2.5.0
+│ │   │ ├── check@1.3.2 (expanded above)
+│ │   │ ├── ecmascript@0.16.7 (top level)
+│ │   │ ├── htmljs@1.1.1 (expanded above)
+│ │   │ ├─┬ observe-sequence@1.0.22
+│ │   │ │ ├── diff-sequence@1.1.2 (expanded above)
+│ │   │ │ ├── ecmascript@0.16.7 (top level)
+│ │   │ │ ├── mongo-id@1.0.8 (expanded above)
+│ │   │ │ ├── random@1.2.1 (expanded above)
+│ │   │ │ └── tracker@1.3.2 (expanded above)
+│ │   │ ├─┬ ordered-dict@1.1.0
+│ │   │ │ └── ecmascript@0.16.7 (top level)
+│ │   │ ├── reactive-var@1.0.12 (top level)
+│ │   │ └── tracker@1.3.2 (expanded above)
+│ │   ├── ecmascript@0.16.7 (top level)
+│ │   ├─┬ spacebars@1.2.0
+│ │   │ ├── blaze@2.5.0 (expanded above)
+│ │   │ ├── htmljs@1.1.1 (expanded above)
+│ │   │ ├── observe-sequence@1.0.22 (expanded above)
+│ │   │ └── tracker@1.3.2 (expanded above)
+│ │   └── templating-compiler@1.4.1 (expanded above)
+│ └── tracker@1.3.2 (expanded above)
+└── less@3.0.2 (expanded above)
+ecmascript@0.16.7
+├─┬ babel-compiler@7.10.4
+│ ├─┬ ecmascript-runtime@0.8.1
+│ │ ├── ecmascript-runtime-client@0.12.1 (expanded above)
+│ │ └─┬ ecmascript-runtime-server@0.11.0
+│ │   └── modules@0.19.0 (expanded above)
+│ └── modern-browsers@0.1.9 (expanded above)
+├─┬ babel-runtime@1.5.1
+│ └── modules@0.19.0 (expanded above)
+├─┬ dynamic-import@0.7.3
+│ ├─┬ fetch@0.1.3
+│ │ ├── modern-browsers@0.1.9 (expanded above)
+│ │ ├── modules@0.19.0 (expanded above)
+│ │ └── promise@0.12.2 (expanded above)
+│ ├── inter-process-messaging@0.1.1 (expanded above)
+│ ├── modern-browsers@0.1.9 (expanded above)
+│ ├── modules@0.19.0 (expanded above)
+│ └── promise@0.12.2 (expanded above)
+├── ecmascript-runtime@0.8.1 (expanded above)
+├── modules@0.19.0 (expanded above)
+├── promise@0.12.2 (expanded above)
+└─┬ react-fast-refresh@0.2.7
+  └── modules@0.19.0 (expanded above)
+es5-shim@4.8.0
+└── modules@0.19.0 (expanded above)
+hot-module-replacement@0.5.3
+├─┬ hot-code-push@1.0.4
+│ ├─┬ autoupdate@1.8.0
+│ │ ├── check@1.3.2 (expanded above)
+│ │ ├── ddp@1.4.1 (expanded above)
+│ │ ├── ecmascript@0.16.7 (top level)
+│ │ ├── inter-process-messaging@0.1.1 (expanded above)
+│ │ ├── retry@1.1.0 (expanded above)
+│ │ ├── tracker@1.3.2 (expanded above)
+│ │ └── webapp@1.13.5 (expanded above)
+│ └── reload@1.3.1 (expanded above)
+├── modules@0.19.0 (expanded above)
+└── modules-runtime-hot@0.14.2
+meteor-base@1.5.1
+├── ddp@1.4.1 (expanded above)
+├── es5-shim@4.8.0 (top level)
+├── hot-code-push@1.0.4 (expanded above)
+└── webapp@1.13.5 (expanded above)
+mobile-experience@1.1.0
+├── launch-screen@1.3.0
+└── mobile-status-bar@1.1.0
+mongo@1.16.7
+├─┬ allow-deny@1.1.1
+│ ├── check@1.3.2 (expanded above)
+│ ├── ddp@1.4.1 (expanded above)
+│ ├── ecmascript@0.16.7 (top level)
+│ ├── ejson@1.1.3 (expanded above)
+│ └─┬ minimongo@1.9.3
+│   ├── diff-sequence@1.1.2 (expanded above)
+│   ├── ecmascript@0.16.7 (top level)
+│   ├── ejson@1.1.3 (expanded above)
+│   ├─┬ geojson-utils@1.0.11
+│   │ └── modules@0.19.0 (expanded above)
+│   ├── id-map@1.1.1 (expanded above)
+│   ├─┬ mongo-decimal@0.1.3
+│   │ ├── ecmascript@0.16.7 (top level)
+│   │ └── ejson@1.1.3 (expanded above)
+│   ├── mongo-id@1.0.8 (expanded above)
+│   ├── ordered-dict@1.1.0 (expanded above)
+│   ├── random@1.2.1 (expanded above)
+│   └── tracker@1.3.2 (expanded above)
+├─┬ binary-heap@1.0.11
+│ ├── ecmascript@0.16.7 (top level)
+│ └── id-map@1.1.1 (expanded above)
+├── callback-hook@1.5.1 (expanded above)
+├── check@1.3.2 (expanded above)
+├── ddp@1.4.1 (expanded above)
+├── diff-sequence@1.1.2 (expanded above)
+├── ecmascript@0.16.7 (top level)
+├── ejson@1.1.3 (expanded above)
+├── logging@1.3.2 (expanded above)
+├── minimongo@1.9.3 (expanded above)
+├── mongo-decimal@0.1.3 (expanded above)
+├─┬ mongo-dev-server@1.1.0
+│ └── modules@0.19.0 (expanded above)
+├── mongo-id@1.0.8 (expanded above)
+├── npm-mongo@4.16.0
+├── random@1.2.1 (expanded above)
+├── tracker@1.3.2 (expanded above)
+└── underscore@1.0.13
+reactive-var@1.0.12
+└── tracker@1.3.2 (expanded above)
+shell-server@0.5.0
+└── ecmascript@0.16.7 (top level)
+standard-minifier-css@1.9.2
+├── ecmascript@0.16.7 (top level)
+├── logging@1.3.2 (expanded above)
+└─┬ minifier-css@1.6.4
+  └── ecmascript@0.16.7 (top level)
+standard-minifier-js@2.8.1
+├── ecmascript@0.16.7 (top level)
+└─┬ minifier-js@2.7.5
+  ├── babel-compiler@7.10.4 (expanded above)
+  └── ecmascript@0.16.7 (top level)
+static-html@1.3.2
+├── caching-html-compiler@1.2.1 (expanded above)
+├── ecmascript@0.16.7 (top level)
+└── templating-tools@1.2.2 (expanded above)
+typescript@4.9.4
+├── babel-compiler@7.10.4 (expanded above)
+├── babel-runtime@1.5.1 (expanded above)
+├── dynamic-import@0.7.3 (expanded above)
+├── ecmascript-runtime@0.8.1 (expanded above)
+├── modules@0.19.0 (expanded above)
+├── promise@0.12.2 (expanded above)
+└── react-fast-refresh@0.2.7 (expanded above)
+vite:bundler@0.1.9
+├── babel-compiler@7.10.4 (expanded above)
+├── caching-compiler@1.2.2 (expanded above)
+├── ecmascript@0.16.7 (top level)
+└── webapp@1.13.5 (expanded above)
